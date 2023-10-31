@@ -1,0 +1,29 @@
+GET http://localhost:2020/list
+
+POST http://localhost:2020/new
+Content-Type: application/json
+
+{
+    "fristname":"kavi",
+    "lastname":"arun",
+    "id":156,
+    "email":"kaviarungmail.com",
+    "phonenumber":34567654,
+    "curr_year":1,
+    "college":"sona"
+}
+
+PUT  http://localhost:2020/change/17
+Content-Type: application/json
+
+{
+    "fristname":"hema",
+    "lastname":"varun",
+    "id":17,
+    "email":"hemagmail.com",
+    "phonenumber":34567654,
+    "curr_year":1,
+    "college":"sona"
+}
+̥
+DELETE http://localhost:2020/remove/123
